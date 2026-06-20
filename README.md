@@ -66,18 +66,22 @@ Todoリスト
 ## フォルダ構成
 
 ```text
-todo-app/
-├── assets/
-│   └── css/
-│       └── style.css
-├── config/
+todo-app
+├── config
 │   └── database.php
-├── create.php
-├── delete.php
-├── edit.php
-├── index.php
-├── toggle.php
-└── README.md
+├── public
+│   ├── assets
+│   │   └── css
+│   │       └── style.css
+│   ├── create.php
+│   ├── delete.php
+│   ├── edit.php
+│   ├── index.php
+│   ├── toggle.php
+│   └── update.php
+├── README.md
+└── sql
+    └── create_tables.php
 ```
 
 ---
