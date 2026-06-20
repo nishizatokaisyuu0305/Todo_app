@@ -108,7 +108,7 @@ foreach ($todos as $todo) {
   <h2>完了済みタスク</h2>
   <ul>
     <?php foreach ($completedTodos as $todo): ?>
-      <li>
+      <li class="completed">
         <?= htmlspecialchars($todo["title"]) ?>
       </li>
     <?php endforeach; ?>

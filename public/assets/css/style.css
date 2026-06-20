@@ -84,4 +84,29 @@ button:hover {
 
 .completed {
   text-decoration: line-through;
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .todo-item {
+    margin-top: 10px;
+    align-items: flex-end;
+  }
+
+  .todo-actions {
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+
+  .add-btn {
+    width: 100%;
+  }
 }
